@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-de',
+1 verbose cli   'protractorcd',
+1 verbose cli   '..' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData protractorcd
+8 silly fetchPackageMetaData ..
+9 silly fetchNamedPackageData protractorcd
+10 silly mapToRegistry name protractorcd
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'protractorcd',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'protractorcd',
+13 silly mapToRegistry   name: 'protractorcd',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/protractorcd
+15 verbose request uri https://registry.npmjs.org/protractorcd
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 1:33:03 PM
+18 verbose request id fa077a137742efd7
+19 http request GET https://registry.npmjs.org/protractorcd
+20 silly fetchOtherPackageData ..
+21 silly cache add args [ '..', null ]
+22 verbose cache add spec ..
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: '..',
+23 silly cache add   scope: null,
+23 silly cache add   escapedName: null,
+23 silly cache add   name: null,
+23 silly cache add   rawSpec: '..',
+23 silly cache add   spec: 'C:\\Users\\ZEE\\Documents',
+23 silly cache add   type: 'local' }
+24 error addLocal Could not install C:\Users\ZEE\Documents
+25 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
+25 silly fetchPackageMetaData     at Error (native)
+25 silly fetchPackageMetaData  error for .. { Error: EISDIR: illegal operation on a directory, read
+25 silly fetchPackageMetaData     at Error (native) errno: -4068, code: 'EISDIR', syscall: 'read' }
+26 http 404 https://registry.npmjs.org/protractorcd
+27 verbose headers { date: 'Sat, 11 Aug 2018 08:01:45 GMT',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'content-length': '21',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'set-cookie': [ '__cfduid=da9d5cf2e8573c95ac87eb8f3391f52ff1533974504; expires=Sun, 11-Aug-19 08:01:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+27 verbose headers   'cache-control': 'max-age=300',
+27 verbose headers   'cf-cache-status': 'MISS',
+27 verbose headers   'cf-ray': '44892d0c490d89bd-MAA',
+27 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 verbose headers   vary: 'accept-encoding, accept',
+27 verbose headers   server: 'cloudflare' }
+28 silly get cb [ 404,
+28 silly get   { date: 'Sat, 11 Aug 2018 08:01:45 GMT',
+28 silly get     'content-type': 'application/json',
+28 silly get     'content-length': '21',
+28 silly get     connection: 'keep-alive',
+28 silly get     'set-cookie': [ '__cfduid=da9d5cf2e8573c95ac87eb8f3391f52ff1533974504; expires=Sun, 11-Aug-19 08:01:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+28 silly get     'cache-control': 'max-age=300',
+28 silly get     'cf-cache-status': 'MISS',
+28 silly get     'cf-ray': '44892d0c490d89bd-MAA',
+28 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+28 silly get     vary: 'accept-encoding, accept',
+28 silly get     server: 'cloudflare' } ]
+29 silly fetchPackageMetaData Error: Not found : protractorcd
+29 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+29 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+29 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+29 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+29 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+29 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+29 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+29 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+29 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+29 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+29 silly fetchPackageMetaData  error for protractorcd { Error: Not found : protractorcd
+29 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+29 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+29 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+29 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+29 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+29 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+29 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+29 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+29 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+29 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: 'protractorcd', statusCode: 404, code: 'E404' }
+30 silly rollbackFailedOptional Starting
+31 silly rollbackFailedOptional Finishing
+32 silly runTopLevelLifecycles Finishing
+33 silly install printInstalled
+34 verbose stack Error: EISDIR: illegal operation on a directory, read
+34 verbose stack     at Error (native)
+35 verbose cwd C:\Users\ZEE\Documents\fi-protractor
+36 error Windows_NT 6.3.9600
+37 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-de" "protractorcd" ".."
+38 error node v6.11.3
+39 error npm  v3.10.10
+40 error code EISDIR
+41 error errno -4068
+42 error syscall read
+43 error eisdir EISDIR: illegal operation on a directory, read
+44 error eisdir This is most likely not a problem with npm itself
+44 error eisdir and is related to npm not being able to find a package.json in
+44 error eisdir a package you are trying to install.
+45 verbose exit [ -4068, true ]
