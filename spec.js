@@ -38,7 +38,7 @@ it("aadition", ()=> {
 
         item.element(by.css("td:nth-child(3)")).getText().then(function(text){
 
-            expect();
+            console.log(text);
 
 
         })
